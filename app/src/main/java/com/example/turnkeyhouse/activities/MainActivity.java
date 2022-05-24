@@ -35,6 +35,19 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         });
 
+        mainBinding.signUpButton.setOnClickListener(v ->
+        {
+            Intent intent = new Intent(mainBinding.getRoot().getContext(), RegisterResetPassword.class);
+            startActivity(intent);
+        });
+
+        mainBinding.resetPassword.setOnClickListener(v ->
+        {
+            Intent intent = new Intent(mainBinding.getRoot().getContext(), RegisterResetPassword.class);
+            intent.putExtra("signUp", false);
+            startActivity(intent);
+        });
+
         super.onStart();
     }
 }

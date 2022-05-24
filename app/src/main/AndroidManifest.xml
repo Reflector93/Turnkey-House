@@ -22,6 +22,10 @@
             android:name=".activities.MainScreen">
         </activity>
 
+        <activity
+            android:name=".activities.RegisterResetPassword">
+        </activity>
+
     </application>
 
 </manifest>

@@ -8,4 +8,6 @@
     <string name="main_activity_title">Авторизация</string>
     <string name="bottom_menu_chat_title">Чат</string>
     <string name="bottom_menu_profile_title">Профиль</string>
+    <string name="email_text_hint">Email</string>
+    <string name="reset_pass_title">Восстановление пароля</string>
 </resources>
